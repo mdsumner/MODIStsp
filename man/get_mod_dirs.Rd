@@ -36,10 +36,10 @@ instead than to the console/GTK progress windows.}
 
 \item{out_folder_mod}{\code{character} output folder for MODIS HDF storage.}
 
-\item{v}{\code{integer array} vertical tiles of interest (used to restrict the CMR
+\item{v}{\verb{integer array} vertical tiles of interest (used to restrict the CMR
 query for tiled products). Default: NULL.}
 
-\item{h}{\code{integer array} horizontal tiles of interest. Default: NULL.}
+\item{h}{\verb{integer array} horizontal tiles of interest. Default: NULL.}
 
 \item{tiled}{\code{numeric [0/1]} 1 = tiled product; 0 = non-tiled. Default: 1.}
 }

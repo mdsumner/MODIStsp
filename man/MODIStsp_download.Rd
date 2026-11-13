@@ -62,10 +62,10 @@ downloads from the NASA Earthdata Cloud.}
 The function is called for its side effects
 }
 \description{
-Internal function dealing with download of MODIS hdfs from
-the NASA Earthdata Cloud for a given date. Granules are downloaded from the
-URLs discovered through the CMR (see \code{get_mod_filenames}), authenticating
-with an Earthdata Login bearer token.
+Internal function dealing with download of MODIS hdfs from the
+NASA Earthdata Cloud for a given date. Granules are downloaded from the URLs
+discovered through the CMR (see \code{get_mod_filenames}), authenticating with an
+Earthdata Login bearer token.
 }
 \author{
 Lorenzo Busetto, phD (2014-2017)

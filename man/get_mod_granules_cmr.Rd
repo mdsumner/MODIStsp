@@ -24,10 +24,10 @@ get_mod_granules_cmr(
 
 \item{date_to}{\code{character} end date, format "YYYY.MM.DD" or "YYYY-MM-DD".}
 
-\item{v}{\code{integer array} vertical tiles of interest (e.g. \code{c(4, 5)}). Ignored
+\item{v}{\verb{integer array} vertical tiles of interest (e.g. \code{c(4, 5)}). Ignored
 when \code{tiled == 0}. Default: NULL.}
 
-\item{h}{\code{integer array} horizontal tiles of interest (e.g. \code{c(17, 18)}).
+\item{h}{\verb{integer array} horizontal tiles of interest (e.g. \code{c(17, 18)}).
 Ignored when \code{tiled == 0}. Default: NULL.}
 
 \item{tiled}{\code{numeric [0/1]} 1 = tiled product (filter by \code{hXXvYY}); 0 =
@@ -53,7 +53,7 @@ NASA Earthdata Cloud and discoverable via CMR (provider \code{LPCLOUD}).
 }
 \details{
 Server-side tile filtering uses CMR's \code{readable_granule_name}
-pattern option (\code{*.hXXvYY.*}), which keeps queries small. Results larger
+pattern option (\verb{*.hXXvYY.*}), which keeps queries small. Results larger
 than one page are retrieved following the \code{CMR-Search-After} header.
 }
 \note{

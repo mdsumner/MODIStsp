@@ -115,8 +115,8 @@ downloads from the NASA Earthdata Cloud. If NULL (default), the
 generated on the fly from \code{user}/\code{password}. Generate one at
 \href{https://urs.earthdata.nasa.gov/}{urs.earthdata.nasa.gov} via
 \emph{Generate Token}. Since NASA retired the LP DAAC Data Pool for MODIS
-(2025-06-30), downloads go through the Earthdata Cloud and are discovered via
-the NASA CMR. Default: NULL.}
+(2025-06-30), downloads go through the Earthdata Cloud and are
+discovered via the NASA CMR. Default: NULL.}
 
 \item{download_range}{\code{character ["Full" | "Seasonal"]} If "full", all the
 available images between the starting and the ending dates are downloaded;

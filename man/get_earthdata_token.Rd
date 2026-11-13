@@ -20,10 +20,10 @@ Earthdata Login user token via the URS API, using HTTP Basic authentication
 with the user's Earthdata credentials. The returned bearer token is then
 used to authenticate downloads from the NASA Earthdata Cloud.
 }
-\author{
-Pasi Autio (2024)
-}
 \note{
 License: GPL 3.0
+}
+\author{
+Pasi Autio (2024)
 }
 \keyword{internal}
